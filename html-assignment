@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"
+<body>
 
+
+
+<p><h3>hoan0109</h3></p>
+
+<h2><strong>About Me</strong></h2>
+<hr>
+    <p>
+        Hello my name is <em>Joseph Hoang</em>. I am a 17 years old student in the Interactive Media Design (IMD) program at Algonquin College.
+        I was born in Ottawa, Canada and lived here my whole life. The reason I chose this program is because I love to travel and document my journey
+        through photography and videography. I like to use apps like Adobe Lightroom and Premiere to edit. When I saw that this program uses those
+        application I knew this was the program for me. After completing my studies and graduating at Algonquin College I hope to land a job making cool apps and
+        websites.
+    </p>
+
+    <p>
+        Some hobbies include playing sports and video  games. I enjoy playing soccer and basketball. I use to go outside and play pickup basketball almost every day
+        but recently stopped due to the Covid-19 pandemic. I also occasionally enjoy playing video game like Valorant and NBA 2k with friends when I have free time. 
+        Playing video games is a great way to talk or catch up with some friends while having fun. I also recently picked up cooking as a hobby. I enjoy learning and
+        creating different dished around the world. 
+    </p>
+
+    <p>
+        One of my favourite quote is from one of my favourite athletes: <em>"If you're afraid to fail, your're probably going to fail. -Kobe Bryant"</em>
+        Kobe Bryant is one of my favourite athlete not only because of his talent as a basketball player but also his mentality. He is very well known for his hard work
+        and dedication to the game. Many people have said he is the most hardworking athlete. This quote is saying that if your are afraid to fail by not pushing yourself 
+        enough, your are failing.
+    </p>
+
+    <footer>© 2021 Joseph Hoang</footer>
+</body>
+</html>
