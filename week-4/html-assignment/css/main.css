@@ -11,3 +11,9 @@ p {
 li:nth-child(odd) {
     background-color: yellow;
 }
+
+a:link {
+    color: slateblue;
+    text-decoration: none;
+    background-color: orange;
+}
