@@ -17,3 +17,15 @@ a:link {
     text-decoration: none;
     background-color: orange;
 }
+
+h1 {
+    color: red;
+}
+
+h2 {
+    background-color: skyblue;
+}
+
+img {
+    box-shadow: 2px 1px red;
+}
