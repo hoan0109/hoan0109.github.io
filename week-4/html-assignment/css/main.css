@@ -9,5 +9,5 @@ p {
 }
 
 li:nth-child(odd) {
-    background-color: dimgray;
+    background-color: yellow;
 }
