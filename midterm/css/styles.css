@@ -1,7 +1,5 @@
 html {
     background-color: #aad4cf;
-    margin-left: 15%;
-    margin-right: 15%;
    
 }
 
@@ -67,6 +65,8 @@ h3 {
 body {
     background-color: #cae6e2;
     font-family: Arial;
+    margin: 0 auto;
+    width: 1200px;
 }
 
 p {
@@ -75,8 +75,9 @@ p {
 }
 
 form {
-    margin: 3%;
-    box-shadow: 1px 1px 1px 1px black;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 footer {
@@ -85,4 +86,23 @@ footer {
 
 h4 {
     font-size: 20px;
+}
+
+.thanks_form {
+    display: block;
+    width: 99%;
+    margin: 5px;
+}
+
+.short {
+    height: 25px;
+}
+
+.message {
+    height: 100px;
+}
+.send {
+    display: block;
+    margin: 5px;
+    padding: 5px;
 }
