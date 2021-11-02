@@ -1,4 +1,4 @@
-html {
+html:lang(en) {
     background-color: #aad4cf;
    
 }
@@ -22,7 +22,7 @@ header{
 }
 
 nav ul {
-    margin: 5;
+    margin: 5px;
     padding: 0;
     list-style: none;
     text-decoration: none;
@@ -97,7 +97,7 @@ h4 {
 
 .thanks_form {
     display: block;
-    width: 99%;
+    width: 98%;
     margin: 5px;
 }
 
