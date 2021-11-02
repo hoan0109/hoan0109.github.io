@@ -17,6 +17,8 @@ header{
     margin: 0 auto;
 }
 
+/* Centers Page*/
+
 .container {
     margin: 0 auto;
 }
@@ -42,6 +44,8 @@ nav a {
     font-size: 26px;
 }
 
+/*Feature for when user hovers over the text*/
+
 nav a:hover {
     color: black;
 }
@@ -59,6 +63,8 @@ img {
     
 }
 
+/*Creates a verticle line to help divide links*/
+
 .border {
     border-left: 1px solid black;
     padding-left: 120px;
@@ -68,6 +74,8 @@ h3 {
     margin: 10px;
     font-size: 26px;
 }
+
+/*Help differenciate page and margin*/
 
 body {
     background-color: #d4f5f0;
@@ -80,6 +88,8 @@ p {
     margin: 10px;
     margin-top: 20px;
 }
+
+/*Set a box around the form*/
 
 form {
     margin: 15px;
