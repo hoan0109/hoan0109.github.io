@@ -6,19 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Star Media</title>
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header Menu -->
     <header>
-    <img src="images/logo.png" alt="logo">
     <!-- Navigation-->
-        <nav>
+        <nav class="header-menu">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
             <ul>
-                <li><a href="home">Home</a></li>
-                <li><a href="about">About Us</a></li>
-                <li><a href="services">Services</a></li>
-                <li><a href="team">Team</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <!-- Search Bar-->
@@ -51,14 +56,14 @@
     <h2>Our Services</h2>    
 
     <!-- Digital Menu-->
-    <section class=digital_menu">
+    <div class="digital_menu">
         <img src="images/digital.jpg" alt="digital">
             <div class="container-digital">
                 <h3>Digital Transformation</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
                 <button>Digital Plans &#9654;</button>
             </div>
-        </section>
+    </div>
 
     <!-- Marketing Menu-->
     <div class="marketing_menu">
@@ -112,19 +117,22 @@
     <!-- Our Team Menu-->
     <div class="our_team_menu">
         <h2>Our Team</h2>
-        <img src="images/john.jpg" alt="john">
             <div class="container-team">
+                <img src="images/john.jpg" alt="john">
                 <h3>John Doe</h3>
                 <h5>CEO and Co-Owner</h5>
+                <hr>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.
                 </p>
             </div>
 
-            <img src="images/bob.jpg" alt="bob">
+            
             <div class="container-team">
+                <img src="images/bob.jpg" alt="bob">
                 <h3>Bob Rite</h3>
                 <h5>CFO and Co-Owner</h5>
+                <hr>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.
                 </p>
