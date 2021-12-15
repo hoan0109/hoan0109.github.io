@@ -292,9 +292,19 @@ nav form button {
 
 /* ===== OUR TEAM MENU ===== */
 
-.our-team-menu img{
-	object-fit: cover;
+.our-team-menu {
+	padding: 1rem;
+}
 
+.our-team-menu img{
+	width: 100%;
+	object-fit: cover;
+}
+
+.our-team-menu p{
+	padding: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .our-team-john {
@@ -344,6 +354,7 @@ form {
 
 .hours {
 	background: white;
+	padding: 1rem;
 }
 
 table {
@@ -436,6 +447,34 @@ footer a {
 	.our-services {
 		padding-left: 5rem;
 		padding-right: 5rem;
+	}
+
+	nav a {
+		font-size: 20px;
+	}
+
+	h1 {
+		font-size: 81px;
+	}
+
+	h2 {
+		font-size: 54px;
+	}
+
+	h3 {
+		font-size: 36px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+	.welcome-button {
+		font-size: 24px;
+	}
+	
+	.transparent-banner{
+		
 	}
 
 	.our-services-buttons {
