@@ -398,7 +398,7 @@ footer a {
 
 /* ===== DESKTOP SECTION ====== */
 
-@media screen and (min-width: 760px){
+@media screen and (min-width: 760px) and (max-width:1200px){
 	nav {
 		display: flex;
 		
@@ -472,12 +472,3 @@ footer a {
 	.welcome-button {
 		font-size: 24px;
 	}
-	
-	.transparent-banner{
-		
-	}
-
-	.our-services-buttons {
-		
-	}
-  }
