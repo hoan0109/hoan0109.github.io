@@ -51,6 +51,33 @@ table {
 
 /* ======= MOBILE CSS ======*/
 
+h1 {
+	font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 71px;
+	color: white;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	padding: 15px;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 15px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
 /* ====== HEADER ===== */
 .header-menu {
 	background-color: #222;
@@ -79,63 +106,234 @@ nav li:nth-child(1) a {
 	color: #222;
 }
 
+/* ===== SEARCH BAR ===== */
 
-
-
-
-h1 {
-	font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 98px;
+nav form {
+	text-align: center;
+	padding: 12px;
 }
 
-h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 48px;
+nav form .search{
+	width: 95%;
+	height: 25px;
 }
 
-h3 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 36px;
+nav form button {
+	height: 25px;
+	background-color: #222;
+	border: solid 2.5px #c78c06;
 }
 
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+/* ====== WELCOME SECTION ===== */
+
+.welcome-button {
+	background-color: #c78c06;
+	border: none;
+	font-size: 21px;
+	color: #222;
+	padding: 25px 25px;
 }
 
-button {
+.welcome-menu {
+	background-image:url("../images/main-banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 0;
+}
+
+.transparent-banner {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 15px;
+}
+
+.transparent-banner p{
+	color: white;
+	margin-bottom: 10px;
+}
+
+/* ===== END OF WELCOME SECTION =====*/
+
+/* ===== ABOUT US SECTION ===== */
+
+.about-menu {
+	background-color: #ffe6ac;
+	padding: 25px;
+}
+
+.about-menu img {
+	width: 100%;
+	height: auto;
+}
+
+.about-menu h2,p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+/* ===== END OF WELCOME SECTION ===== */
+
+/* ===== OUR SERVICES ===== */
+
+.our-services {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.digital-menu {
+	background-color: #ffe6ac;
+	margin-bottom: 25px;
+}
+
+.digital-menu img {
+	width: 100%;
+}
+
+.digital-menu h3, p {
+	padding: 10px;
+}
+
+.marketing-menu {
+	background-color: #ffe6ac;
+	margin-bottom: 25px;
+}
+
+.marketing-menu img {
+	width: 100%;
+}
+
+.marketing-menu h3, p {
+	padding: 10px;
+}
+
+.video-production-menu {
+	background-color: #ffe6ac;
+	margin-bottom: 25px;
+}
+
+.video-production-menu img {
+	width: 100%;
+}
+
+.video-production-menu h3, p {
+	padding: 10px;
+}
+
+.web-development-menu {
+	background-color: #ffe6ac;
+	margin-bottom: 25px;
+}
+
+.web-development-menu img {
+	width: 100%;
+}
+
+.web-development-menu h3, p {
+	padding: 10px;
+}
+
+.print-menu {
+	background-color: #ffe6ac;
+	margin-bottom: 25px;
+}
+
+.print-menu img {
+	width: 100%;
+}
+
+.print-menu h3, p {
+	padding: 10px;
+}
+
+.our-services-buttons {
 	background-color: #222;
 	color: white;
+	padding: 25px 25px;
+	font-size: 21px;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	border: none;
 }
 
-.about_menu {
-	background-color: #ffe6ac;
+/* ===== END OF OUR SERVICES ===== */
+
+/* ===== OUR VISION ===== */
+
+.our-vision-menu {
+	background-image:url("../images/vision.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
-.digital_menu {
-	background-color: #ffe6ac;
+.vision-button {
+	background-color: #222;
+	color: white;
+	border: 1px solid #c78c06;
+	padding: 25px 25px;
+	font-size: 21px;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
 }
 
-.marketing_menu {
-	background-color: #ffe6ac;
+/* ===== CONTACT US ===== */
+
+form {
+    margin: 15px;
 }
 
-.video_production_menu {
-	background-color: #ffe6ac;
+.thanks_form {
+    display: block;
+    width: 98%;
+    margin: 5px;
 }
 
-.web_development_menu {
-	background-color: #ffe6ac;
+.message {
+    height: 100px;
 }
 
-.print_menu {
-	background-color: #ffe6ac;
+.send {
+    display: block;
+    margin: 5px;
+	background: #222;
+	color: #c78c06;
 }
 
-.container-team {
-	background-color: #ffe6ac;
+/* ===== HOURS OF OPERATION ===== */
+
+.hours {
+	background: white;
 }
+
+table {
+	width: 100%;
+}
+
+
+table, th, td {
+	border: solid #222 1px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding: 15px;
+}
+
+th {
+	background: #ffe6ac;
+}
+
+/* ===== END OF HOURS OF OPERATION ===== */
+
+/* ===== MAP =====*/
+
+iframe {
+	margin: 0 auto;
+	width: 100%;
+}
+
 
 hr {
 	color: #c78c06;
@@ -144,14 +342,70 @@ hr {
 	background-color: #c78c06;
 }
 
+/* ===== Footer =====*/
+
 footer {
 	background-color: #222;
 	color: #c78c06;
-	margin-top: 15px;
+	padding: 10px;
+	font-size: 10px;
 }
 
-footer p {
-	line-height: 2rem;
-	padding: 10px 0 0 10px;
-	margin: 0;
+
+footer a {
+	color: #c78c06;
 }
+
+/* ===== DESKTOP SECTION ====== */
+
+@media screen and (min-width: 760px){
+	nav {
+		display: flex;
+		
+	}
+	ul {
+		display: flex;
+		align-items: center;
+		margin-left: 5rem;
+	}
+	.our-services {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.digital-menu {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+	.marketing-menu {
+		grid-column-start: 4;
+		grid-column-end: 7;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+	.video-production-menu {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 2;
+	}
+	.web-development-menu {
+		grid-column-start: 3;
+		grid-column-end: 5;
+		grid-row-start: 2;
+		grid-row-end: 2;
+	}
+	.print-menu {
+		grid-column-start: 5;
+		grid-column-end: 7;
+		grid-row-start: 2;
+		grid-row-end: 2;
+	}
+
+	.our-services {
+		padding-left: 5rem;
+		padding-right: 5rem;
+	}
+  }
